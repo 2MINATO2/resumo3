@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Resumo</title>
+</head>
+<body>
+    <header>
+    <ul>
+        <li><a href="css.html">css</a></li>
+        <li><a href="tag.html">tags</a></li>
+        <li><a href="relembra.html">relembra</a></li>
+    </ul>
+    </header>
+    <main>
+    <div class="quadrado">
+       <pre>
+        <p class="paragrafo"> Listas
+
+        < ol > + < li > = cria uma lista ordernada
+
+        < ul > + < li > = cria uma lista não ordernada
+             
+        type e colocado no < li > escolher o formato
+
+        start escolher de que numero vai comesar
+
+        para tira qual quer efeito dos < li > e so coloca
+
+        list-style-type: none;
+
+        Exemplo:      < ol > < li >< li > < ol >
+        
+                             < ul > < li >< li > < ul >
+        </p>
+       </pre>
+    </div>
+    <div class="quadrado">
+     <pre>
+        <p>     Lista
+
+         < dl > + < dt > + < dd > é usado para cria lista com significados
+
+         < dl > = e a lista usa 1 ves
+
+         < dt > = coloca ó motivo do texto
+
+         < dd > = o significado do texto
+
+         Exemplo:     < dl >
+
+                             < dt >motivo< dt >
+
+                             < dd >significado< dd >
+
+                            < dl >
+        </p>
+     </pre>
+    </div>
+    <div class="quadrado">
+    <pre>
+        <p>         Link
+
+            < a > coloca link de um site pro outro ou outra aria do sita
+
+            target "_blamk" + rel "extermal" = para abri o link em outra aba
+
+            rel "mext" = quando ó link e para leva para outra aria do seu site
+
+            rel "prev" = site primcipal
+
+            rel "mofollow" = para voce indica que não recomenda ou comcorda com esse site
+
+            targrt "_self" = para comtinua na propria pagina
+
+            download= "nome do que vai baixa" 
+                                          +
+            type "application/pdf" = especifica do que é o documento que vai baixa
+        </p>
+    </pre>
+    </div>
+    <div class="quadrado">
+        <pre>
+            <p> Imagem
+
+                < picture > + < source > + image = coloca imagens responsivas
+             
+                < picture >
+
+                < source media="(min-width:750px)" srcset="p.png" type="image/png">
+                < source media="(max-width:1050px)" srcset="m.png" type="image/png">
+                < img src="g.png">
+
+                < picture >
+
+                troca as imagem para adapita á diferentes tipos de tela
+
+
+            </p>
+        </pre>
+    </div>
+    <div class="quadrado">
+        <pre>
+            <p>     Audio
+               
+                audio + controls + autoplay = para roda audio ou musica
+
+                < audio src="musica.mp4" controls autoplay >< audio >
+
+<hr>
+                outro modo para caso ó mp3 não peque coloca ó ogg 
+
+                < audio preload="metadata" autoplay controls>
+
+                    < source src="musica.mp3" type="audio/mpeg" >
+                    < source src="musica.ogg" type="audio/ogg" >
+
+                    < p > se o navegador não carrega ó audio < a > link do audio < a >< p >
+
+                < audio>
+            </p>
+        </pre>
+    </div>
+    <div class="quadrado">
+        <pre>
+            <p>  Video
+
+                video + controls = para roda o video
+                 
+                ó loop e caso vc quera que o video fica se repitindo 
+
+                ò poster caso vc quera coloca capa no video quando despausa o video ela sai
+
+                < video  controls loop poster="img"> 
+
+                    < source src="video.mp4" type="video/mp4" >
+                    < source src="video.mkv" type="video/mkv" >
+
+                    < p > se o navegador não carrega ó video < a > link do video < a >< p >
+                    < p > para dowload < a href="video.mp4" download="video.mp4" 
+                             type="application/mp4">baixa< a >< p >
+
+                < video>
+            </p>
+        </pre>
+    </div>
+    <div class="quadrado">
+        <pre>
+            <p> Tabela
+
+               table + tr + th + td = cria tabelas
+
+               caption = titulo da tabela
+
+               tr = linha onde vai coloca ó th é td                       < thead > = cabeçario da tabela
+
+               th = texto é informações                                      < tbody > = corpo da tabela
+
+               td = dados é valores                                            < tfoot > = final da tabela
+
+               < table >
+                < tr >
+                    < th >informações inportate< th >
+                    < td >dados< td >
+                < tr >
+               < table >
+            </p>
+        </pre>
+    </div>
+     
+    </main>
+    <footer>
+     <p>criando resumos para relembra e decha de lembrete</p>
+    </footer>
+</body>
+</html>
